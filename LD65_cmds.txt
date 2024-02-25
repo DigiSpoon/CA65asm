@@ -1,0 +1,10 @@
+LD65_cmds.txt
+
+2-20-2024
+
+--COMPILE
+ca65 wozmon19200-wirq-ld65.asm -o wozmon.o
+
+--LINK
+ld65 -C wozbios.cfg wozmon.o -o woz4rom.bin
+-Create woz4rom.bin ready for loading onto 32K EPROM
